@@ -1,31 +1,102 @@
 ---
 format: html
+page-layout: full
 ---
 
+<style>
+.project-wrapper {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: projectSlideFadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+  padding: 40px 20px;
+}
+
+@keyframes projectSlideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.project-section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: sectionFadeIn 0.8s ease-out forwards;
+  margin-bottom: 30px;
+}
+
+.project-overview {
+  animation-delay: 0.4s;
+}
+.project-skills {
+  animation-delay: 0.7s;
+}
+.project-outcome {
+  animation-delay: 1s;
+}
+
+@keyframes sectionFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2, h3 {
+  text-align: center;
+  color: #003366;
+}
+</style>
+
+<div class="project-wrapper">
 
 ## 💼 AD688 Employability Group Project
 
 **Repository**: [GitHub](https://github.com/CYXNBNBNB/ad688-employability-sp25A1-group6)  
 **Live Demo**: [Visit Website](https://cyxnbnbnb.github.io/ad688-employability-sp25A1-group6/)
 
-### Overview
+---
 
-This project was developed as part of the AD688 course at Boston University. Our team (Group 6) focused on analyzing current job market trends to provide data-driven insights into salary, job requirements, and career planning.
+<div class="project-section project-overview">
+
+### 📌 Overview
+
+This project was developed as part of the AD688 course at Boston University.  
+Our team (Group 6) focused on analyzing current job market trends to provide data-driven insights into salary, job requirements, and career planning.
 
 The main research question:  
 **How do salary and compensation trends differ across roles, regions, and job types in 2024?**
 
+</div>
 
-### Skills Used
+---
 
-- **Tools**: Python, Pandas, Power BI, Quarto
-- **Topics**: Data visualization, salary analytics, career strategy
+<div class="project-section project-skills">
+
+### 🛠️ Skills Used
+
+- **Tools**: Python, Pandas, Power BI, Quarto  
+- **Topics**: Data visualization, salary analytics, career strategy  
 - **Roles**: Team collaboration, writing, web presentation
+
+</div>
+
+---
+
+<div class="project-section project-outcome">
 
 ### 🌟 Outcome
 
-- Created a fully functional and responsive Quarto website for the project.
-- Delivered insights on job market shifts and how students can align their skillsets.
-- Received positive feedback on clarity, professionalism, and design.
+- Created a fully functional and responsive Quarto website for the project  
+- Delivered insights on job market shifts and how students can align their skillsets  
+- Received positive feedback on clarity, professionalism, and design
 
+</div>
+
+</div>
 
