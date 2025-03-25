@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "📬 Get in Touch",
+    "section": "",
+    "text": "Feel free to reach out for opportunities, collaborations, or questions!\n\n📧 Email: qiminshen1113@gmail.com\n\n💻 GitHub: github.com/Qimin-Shen\n\n\n\n\n\nName \nEmail \nMessage\n\n\n\nSend"
+  },
+  {
+    "objectID": "contact.html#send-me-a-message",
+    "href": "contact.html#send-me-a-message",
+    "title": "📬 Get in Touch",
+    "section": "",
+    "text": "Name \nEmail \nMessage\n\n\n\nSend"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "👋 Hello, I’m Qimin Shen",
+    "section": "",
+    "text": "👋 Hello, I’m Qimin Shen\nWelcome to my personal website! I’m currently pursuing a Master of Science in Applied Business Analytics at Boston University, with a background in Economics from Stony Brook University.\nMy interests lie at the intersection of data analytics, marketing strategy, and technology. I have hands-on experience with tools such as SQL, Power BI, R, and AWS Cloud, and have interned at companies like NetEase and Zhi Jin Human Resources.\nOutside academics, I enjoy anime culture, running, and community events. I’ve served as a club accountant and data manager, which sharpened both my leadership and data organization skills.\nI’m passionate about using data to solve real-world problems and am currently seeking opportunities in data analytics, marketing insights, or product strategy."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Home",
+    "section": "",
+    "text": "Repository: GitHub\nLive Demo: Visit Website\n\n\nThis project was developed as part of the AD688 course at Boston University. Our team (Group 6) focused on analyzing current job market trends to provide data-driven insights into salary, job requirements, and career planning.\nThe main research question:\nHow do salary and compensation trends differ across roles, regions, and job types in 2024?\n\n\n\n\nTools: Python, Pandas, Power BI, Quarto\nTopics: Data visualization, salary analytics, career strategy\nRoles: Team collaboration, writing, web presentation\n\n\n\n\n\nCreated a fully functional and responsive Quarto website for the project.\nDelivered insights on job market shifts and how students can align their skillsets.\nReceived positive feedback on clarity, professionalism, and design."
+  },
+  {
+    "objectID": "projects.html#ad688-employability-group-project",
+    "href": "projects.html#ad688-employability-group-project",
+    "title": "Home",
+    "section": "",
+    "text": "Repository: GitHub\nLive Demo: Visit Website\n\n\nThis project was developed as part of the AD688 course at Boston University. Our team (Group 6) focused on analyzing current job market trends to provide data-driven insights into salary, job requirements, and career planning.\nThe main research question:\nHow do salary and compensation trends differ across roles, regions, and job types in 2024?\n\n\n\n\nTools: Python, Pandas, Power BI, Quarto\nTopics: Data visualization, salary analytics, career strategy\nRoles: Team collaboration, writing, web presentation\n\n\n\n\n\nCreated a fully functional and responsive Quarto website for the project.\nDelivered insights on job market shifts and how students can align their skillsets.\nReceived positive feedback on clarity, professionalism, and design."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Qimin Shen\n\n\nAspiring Data Analyst | Passionate about Data & Strategy"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Qimin Shen",
+    "section": "",
+    "text": "📄 Download Full CV (PDF)\n\n\n\nBoston University, Boston, MA\nMaster of Applied Business Analytics\nSeptember 2024 – August 2025\nStony Brook University, Stony Brook, NY\nBachelor of Arts in Economics\nMay 2019 – August 2024\n\n\n\n\nNetEase, Guangzhou, China\nContent Marketing Intern\nFebruary 2023 – June 2023\n- Improved content efficiency by 20% across 30+ projects using Excel.\n- Boosted engagement by 10% through trend analysis.\nZhi Jin Human Resources, Hangzhou, China\nIntern\nJanuary 2023 – July 2023\n- Participated in contract talks with major firms.\n- Screened 200+ resumes, improving match rates.\n\n\n\n\nTools: Microsoft Office, R, SQL, Power BI, AWS\nLanguages: Chinese (Native), English (Proficient), Japanese (Basic)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Qimin Shen",
+    "section": "",
+    "text": "Boston University, Boston, MA\nMaster of Applied Business Analytics\nSeptember 2024 – August 2025\nStony Brook University, Stony Brook, NY\nBachelor of Arts in Economics\nMay 2019 – August 2024"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "Qimin Shen",
+    "section": "",
+    "text": "NetEase, Guangzhou, China\nContent Marketing Intern\nFebruary 2023 – June 2023\n- Improved content efficiency by 20% across 30+ projects using Excel.\n- Boosted engagement by 10% through trend analysis.\nZhi Jin Human Resources, Hangzhou, China\nIntern\nJanuary 2023 – July 2023\n- Participated in contract talks with major firms.\n- Screened 200+ resumes, improving match rates."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Qimin Shen",
+    "section": "",
+    "text": "Tools: Microsoft Office, R, SQL, Power BI, AWS\nLanguages: Chinese (Native), English (Proficient), Japanese (Basic)"
+  }
+]

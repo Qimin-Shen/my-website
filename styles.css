@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e6f2ff, #ffffff); /* 天蓝过渡背景 */
+  color: #003366;
+  margin: 0;
+}
+
+.navbar, .quarto-title-block {
+  background-color: #d0e7ff !important;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #005b99 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #003366 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007acc !important;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4), 0 0 40px rgba(0, 123, 255, 0.15);
+  transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.cta-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #005b99;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #333;
+  margin-top: 15px;
+}
+
