@@ -2,6 +2,8 @@
 format: html
 ---
 
+<section id="about" class="animate-section">
+
 # 👋 Hello, I'm Qimin Shen
 
 Welcome to my personal website! I’m currently pursuing a Master of Science in Applied Business Analytics at **Boston University**, with a background in **Economics** from **Stony Brook University**.
@@ -11,3 +13,5 @@ My interests lie at the intersection of **data analytics**, **marketing strategy
 Outside academics, I enjoy anime culture, running, and community events. I’ve served as a club accountant and data manager, which sharpened both my leadership and data organization skills.
 
 I'm passionate about using data to solve real-world problems and am currently seeking opportunities in **data analytics, marketing insights, or product strategy**.
+
+</section>
