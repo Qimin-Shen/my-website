@@ -4,7 +4,7 @@ format: html
 
 <section id="about" class="animate-section">
 
-# 👋 ## Curiosity-Driven. Strategy-Minded. Data-Literate.
+## 📊 Qimin Shen — Data-Driven & Strategy-Minded
 
 Welcome to my personal website! I’m currently pursuing a Master of Science in Applied Business Analytics at **Boston University**, with a background in **Economics** from **Stony Brook University**.
 
