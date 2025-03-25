@@ -1,0 +1,42 @@
+---
+format: html
+---
+
+# Qimin Shen
+
+📄 [Download Full CV (PDF)](cv/Qimin_Shen_CV.pdf)
+
+---
+
+## 🎓 Education
+
+**Boston University**, Boston, MA  
+*Master of Applied Business Analytics*  
+_September 2024 – August 2025_
+
+**Stony Brook University**, Stony Brook, NY  
+*Bachelor of Arts in Economics*  
+_May 2019 – August 2024_
+
+---
+
+## 💼 Work Experience
+
+**NetEase**, Guangzhou, China  
+*Content Marketing Intern*  
+_February 2023 – June 2023_  
+- Improved content efficiency by 20% across 30+ projects using Excel.  
+- Boosted engagement by 10% through trend analysis.
+
+**Zhi Jin Human Resources**, Hangzhou, China  
+*Intern*  
+_January 2023 – July 2023_  
+- Participated in contract talks with major firms.  
+- Screened 200+ resumes, improving match rates.
+
+---
+
+## 🧠 Skills
+
+**Tools**: Microsoft Office, R, SQL, Power BI, AWS  
+**Languages**: Chinese (Native), English (Proficient), Japanese (Basic)

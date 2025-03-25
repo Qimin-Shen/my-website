@@ -1,0 +1,27 @@
+---
+format: html
+---
+
+# 📬 Get in Touch
+
+Feel free to reach out for opportunities, collaborations, or questions!
+
+- 📧 Email: [qiminshen1113@gmail.com](mailto:qiminshen1113@gmail.com)   
+- 💻 GitHub: [github.com/Qimin-Shen](https://github.com/Qimin-Shen)
+
+---
+
+## 📩 Send Me a Message
+
+<form name="contact" method="POST" data-netlify="true">
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message</label><br>
+  <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+</form>

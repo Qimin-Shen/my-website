@@ -1,0 +1,77 @@
+---
+format: html
+page-layout: full
+---
+
+<style>
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .typing-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: none;
+    animation:
+      slideUp 1s ease-out forwards,
+      typing 2s steps(20, end) 1s forwards;
+    opacity: 0;
+    margin-top: 30px;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 15px;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 3.2s;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 9.5ch }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+</style>
+
+<div class="center-container">
+  <img src="images/1.jpg" alt="Qimin Shen" class="profile-pic">
+  <div class="typing-text">Qimin Shen</div>
+  <div class="subtitle">Aspiring Data Analyst | Passionate about Data & Strategy</div>
+</div>
