@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,41 +112,110 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="get-in-touch" class="level1">
+<style>
+.contact-wrapper {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s ease-out forwards;
+  animation-delay: 0.3s;
+  padding: 40px 20px;
+}
+
+.contact-block {
+  background: #f5f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  animation: fadeInSection 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.contact-block:nth-child(1) { animation-delay: 0.5s; }
+.contact-block:nth-child(2) { animation-delay: 0.8s; }
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSection {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005b99;
+}
+</style>
+<section id="get-in-touch" class="level1 contact-wrapper">
 <h1>📬 Get in Touch</h1>
+<div class="contact-block">
 <p>Feel free to reach out for opportunities, collaborations, or questions!</p>
 <ul>
 <li>📧 Email: <a href="mailto:qiminshen1113@gmail.com">qiminshen1113@gmail.com</a><br>
 </li>
 <li>💻 GitHub: <a href="https://github.com/Qimin-Shen">github.com/Qimin-Shen</a></li>
 </ul>
-<hr>
-<section id="send-me-a-message" class="level2">
+</div>
+<section id="send-me-a-message" class="level2 contact-block">
 <h2 class="anchored" data-anchor-id="send-me-a-message">📩 Send Me a Message</h2>
 <form name="contact" method="POST" data-netlify="true">
-<p><label for="name">Name</label><br> <input type="text" id="name" name="name" required=""><br><br></p>
-<p><label for="email">Email</label><br> <input type="email" id="email" name="email" required=""><br><br></p>
-<label for="message">Message</label><br>
+<p><label for="name">Name</label> <input type="text" id="name" name="name" required=""></p>
+<p><label for="email">Email</label> <input type="email" id="email" name="email" required=""></p>
+<label for="message">Message</label>
 <textarea id="message" name="message" rows="6" required=""></textarea>
-<p><br><br></p>
 <button type="submit">
 Send
 </button>
 </form>
-
-
 </section>
 </section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

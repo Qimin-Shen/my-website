@@ -1,27 +1,107 @@
 ---
 format: html
+page-layout: full
 ---
+
+<style>
+.contact-wrapper {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s ease-out forwards;
+  animation-delay: 0.3s;
+  padding: 40px 20px;
+}
+
+.contact-block {
+  background: #f5f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  animation: fadeInSection 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.contact-block:nth-child(1) { animation-delay: 0.5s; }
+.contact-block:nth-child(2) { animation-delay: 0.8s; }
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSection {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005b99;
+}
+</style>
+
+<div class="contact-wrapper">
 
 # 📬 Get in Touch
 
+<div class="contact-block">
+
 Feel free to reach out for opportunities, collaborations, or questions!
 
-- 📧 Email: [qiminshen1113@gmail.com](mailto:qiminshen1113@gmail.com)   
+- 📧 Email: [qiminshen1113@gmail.com](mailto:qiminshen1113@gmail.com)  
 - 💻 GitHub: [github.com/Qimin-Shen](https://github.com/Qimin-Shen)
 
----
+</div>
+
+<div class="contact-block">
 
 ## 📩 Send Me a Message
 
 <form name="contact" method="POST" data-netlify="true">
-  <label for="name">Name</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
 
-  <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
 
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" rows="6" required></textarea><br><br>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
 
   <button type="submit">Send</button>
 </form>
+
+</div>
+</div>

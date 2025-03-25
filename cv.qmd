@@ -1,42 +1,112 @@
 ---
 format: html
+page-layout: full
 ---
 
-# Qimin Shen
+<style>
+.cv-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 40px;
+}
 
-📄 [Download Full CV (PDF)](cv/Qimin_Shen_CV.pdf)
+.cv-nav {
+  width: 200px;
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+}
 
----
+.cv-nav a {
+  display: block;
+  margin-bottom: 15px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
-## 🎓 Education
+.cv-nav a:hover {
+  color: #007acc;
+}
 
-**Boston University**, Boston, MA  
-*Master of Applied Business Analytics*  
-_September 2024 – August 2025_
+.cv-content {
+  flex-grow: 1;
+}
 
-**Stony Brook University**, Stony Brook, NY  
-*Bachelor of Arts in Economics*  
-_May 2019 – August 2024_
+.cv-card {
+  background-color: #f9f9ff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  animation: fadeSlideIn 1s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
 
----
+.cv-card:nth-child(1) { animation-delay: 0.3s; }
+.cv-card:nth-child(2) { animation-delay: 0.6s; }
+.cv-card:nth-child(3) { animation-delay: 0.9s; }
 
-## 💼 Work Experience
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-**NetEase**, Guangzhou, China  
-*Content Marketing Intern*  
-_February 2023 – June 2023_  
-- Improved content efficiency by 20% across 30+ projects using Excel.  
-- Boosted engagement by 10% through trend analysis.
+.cv-card h2 {
+  margin-top: 0;
+  color: #003366;
+}
+</style>
 
-**Zhi Jin Human Resources**, Hangzhou, China  
-*Intern*  
-_January 2023 – July 2023_  
-- Participated in contract talks with major firms.  
-- Screened 200+ resumes, improving match rates.
+<div class="cv-container">
 
----
+<div class="cv-nav">
+  <a href="#education">🎓 Education</a>
+  <a href="#experience">💼 Work Experience</a>
+  <a href="#skills">🧠 Skills</a>
+</div>
 
-## 🧠 Skills
+<div class="cv-content">
 
-**Tools**: Microsoft Office, R, SQL, Power BI, AWS  
-**Languages**: Chinese (Native), English (Proficient), Japanese (Basic)
+<div class="cv-card" id="education">
+  <h2>🎓 Education</h2>
+
+  **Boston University**, Boston, MA  
+  *Master of Applied Business Analytics*  
+  _September 2024 – August 2025_
+
+  **Stony Brook University**, Stony Brook, NY  
+  *Bachelor of Arts in Economics*  
+  _May 2019 – August 2024_
+</div>
+
+<div class="cv-card" id="experience">
+  <h2>💼 Work Experience</h2>
+
+  **NetEase**, Guangzhou, China  
+  *Content Marketing Intern*  
+  _February 2023 – June 2023_  
+  - Improved content efficiency by 20% across 30+ projects using Excel.  
+  - Boosted engagement by 10% through trend analysis.
+
+  **Zhi Jin Human Resources**, Hangzhou, China  
+  *Intern*  
+  _January 2023 – July 2023_  
+  - Participated in contract talks with major firms.  
+  - Screened 200+ resumes, improving match rates.
+</div>
+
+<div class="cv-card" id="skills">
+  <h2>🧠 Skills</h2>
+
+  **Tools**: Microsoft Office, R, SQL, Power BI, AWS  
+  **Languages**: Chinese (Native), English (Proficient), Japanese (Basic)
+</div>
+
+</div>
+</div>
